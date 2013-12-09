@@ -4,21 +4,27 @@
 	<title>Toll App Windows</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/icons.css" />
+	<link rel="stylesheet" type="text/css" href="css/af.ui.css" />
+	<link rel="stylesheet" type="text/css" href="css/app.css" />
 	<link rel="stylesheet" href="js/lib/leaflet/leaflet.css">
 	<!--script src="cordova.js"></script-->
 	<script data-main="main" src="require.js"></script>
-	
 	<style>
-		body {
-			padding: 0;
-			margin: 0;
-		}
-		html, body, #map {
+		#map {
 			height: 100%;
 		}
 	</style>
 </head>
 <body>
-	<div id="map"></div>
+	<div id="afui">
+		<div id="header"></div>
+		<div id="content">
+			<div id="main" title="Welcome" class="panel" selected="true" style="height:100%;">
+ 				<div id="map"></div>
+       		 </div>
+		</div>
+		
+	</div>
 </body>
 </html>
