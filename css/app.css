@@ -1,0 +1,146 @@
+
+/*{
+	border : 1px solid red;
+}*/
+
+
+#afui p.justify {
+	text-align: justify;
+}
+
+
+#afui #backButton {
+	/*display:none;*/
+}
+
+#afui .panel {
+	background: #8BF022;
+}
+
+#afui .input-group {
+	background: #FFFFFF;
+}
+
+#afui .button{
+	-webkit-border-radius: 10px;
+}
+
+#afui .button.aligned{
+	margin-top: 2px;
+}
+
+#afui .button.inline_two{
+	-webkit-border-radius: 10px;
+	float: left;
+	margin-left: 1%;
+	margin-right: 1%;
+	width: 48%;
+}
+
+#afui .list {
+	background-color: #FFFFFF;
+}
+
+/*
+#afui .list.inset.compact  > li {
+	
+	padding-bottom: 10px;
+	padding-top: 12px;
+}
+*/
+
+#afui .withimages > li a span.text {
+	position: absolute;
+	margin: 10px;
+}
+
+
+#afui .withimages > li a:after {
+	content : none;
+}
+
+
+#afui .withimages > li > a span.icon.big {
+	position: relative;
+	float: right;
+	top: 20px;
+}
+
+
+#afui #menu .list li {
+	border-color: #FFFFFF;
+}
+
+#afui #menu .list li > a {
+	color: #53575E;
+}
+
+.align-center {
+	text-align: center;
+}
+
+img.align-left {
+	float: left;
+	margin-right: 10px;
+}
+
+img.align-center {
+	display: block;
+	margin: 0px auto;
+}
+
+img.responsive {
+	width: 98%;
+	-webkit-border-radius: 10px;
+}
+
+img.rounded {
+	-webkit-border-radius: 10px;
+}
+
+#afui input[type="checkbox"] + label {
+	width: 90%;
+}
+
+
+#afui div .left {
+	float:left; 
+	text-align: center;
+	margin-right: 10px;
+}
+
+#afui .clear_left {
+	clear:left; 
+}
+
+#afui div .align-text {
+	padding: 15px;
+}
+
+
+#afui p.green, #afui span.green {
+	color: #6DE41E;
+}
+
+p.box {
+	border: 1px solid gray;
+	background-color: #ffffff;
+	-webkit-border-radius: 10px;
+	padding: 5px;
+}
+
+p.left {
+	float: left;
+}
+
+
+
+#afui input[type="radio"] + label {
+	float: left;
+	left: 25px;
+	padding: 10px 0px 10px 0px;
+}
+
+#afui div.input-group {
+	-webkit-border-radius: 10px;
+}
