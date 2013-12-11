@@ -28,8 +28,8 @@ require(['leaflet', 'tollstations', 'utils', 'appframework','appframeworkui'], f
     var onSuccess = function(position) {
         console.log(JSON.stringify(position));
         if (clearWatch) {
-            map.setView([position.coords.latitude, position.coords.longitude], 15);
-            marker = L.marker([position.coords.latitude, position.coords.longitude]).addTo(map);
+            map.setView([37.969952, 23.769471], 15);
+            //marker = L.marker([position.coords.latitude, position.coords.longitude]).addTo(map);
         }
         //marker.setLatLng([position.coords.latitude, position.coords.longitude]);
         //marker.setLatLng([37.969952, 23.769471]);
@@ -57,7 +57,7 @@ require(['leaflet', 'tollstations', 'utils', 'appframework','appframeworkui'], f
 
 
     var watchID = navigator.geolocation.watchPosition(onSuccess, onError, {
-        enableHighAccuracy: true,
+        enableHighAccuracy: false,
         timeout: 30000
     });
 });
